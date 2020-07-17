@@ -1,0 +1,33 @@
+{
+  "name": "online-youtube-video-downloader",
+  "description": "A Simple Online Youtube Video Downloader",
+  "engines": {
+    "node": "12.x"
+  }
+,  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "~1.0.0",
+    "express": "^4.17.1",
+    "ytdl-core": "^3.1.2"
+  },
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devphilip98/youtubedownloader.git"
+  },
+  "keywords": [
+    "heroku",
+    "nodejs"
+  ],
+  "author": "devphilip98",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devphilip98/youtubedownloader/issues"
+  },
+  "homepage": "https://github.com/devphilip98/youtubedownloader#readme"
+}
